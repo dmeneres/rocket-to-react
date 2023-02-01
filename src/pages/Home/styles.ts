@@ -35,6 +35,6 @@ export const Card = styled.div`
 
   p {
     margin: 0px 54px 25px;
-    text-align: justify;
+    text-align: center;
   }
 `;
