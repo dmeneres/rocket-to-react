@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { Divider, HeaderContainer, NavBar } from "./styles";
+import { HeaderContainer, NavBar } from "./styles";
 import rtrLogo from "../../../../public/rocket-to-react-favicon.svg";
+import { Divider } from "../../Divider";
 
 export function NonHomeHeader() {
   let activeStyle = {
@@ -46,7 +47,7 @@ export function NonHomeHeader() {
           </NavLink>
         </NavBar>
       </HeaderContainer>
-      <Divider />
+      <Divider type="big" />
     </>
   );
 }

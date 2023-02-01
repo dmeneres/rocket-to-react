@@ -28,10 +28,3 @@ export const NavBar = styled.nav`
     transition: 0.2s;
   }
 `;
-
-export const Divider = styled.div`
-  width: 100vw;
-  height: 0px;
-
-  border: 1px solid #404756;
-`;

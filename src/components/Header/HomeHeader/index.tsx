@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { Divider, HeaderContainer, NavBar } from "./styles";
+import { Divider } from "../../Divider";
+import { HeaderContainer, NavBar } from "./styles";
 
 export function HomeHeader() {
   let activeStyle = {
@@ -42,7 +43,7 @@ export function HomeHeader() {
         </NavLink>
       </NavBar>
 
-      <Divider />
+      <Divider type="small" />
     </HeaderContainer>
   );
 }
