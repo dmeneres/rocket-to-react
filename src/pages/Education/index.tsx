@@ -6,11 +6,11 @@ import {
   FrontEndSection,
 } from "./styles";
 
-import civilEngineering from "../../assets/civil-engineering.jpg";
-import physics from "../../assets/physics.jpg";
-import mechanicalEngineering from "../../assets/mechanical-engineering.jpg";
-import rocketseat from "../../assets/rocketseat.webp";
-import freecodecamp from "../../assets/freecodecamp.webp";
+import civilEngineering from "/assets/civil-engineering.jpg";
+import physics from "/assets/physics.jpg";
+import mechanicalEngineering from "/assets/mechanical-engineering.jpg";
+import rocketseat from "/assets/rocketseat.webp";
+import freecodecamp from "/assets/freecodecamp.webp";
 
 export function EducationPage() {
   return (

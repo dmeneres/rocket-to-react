@@ -1,8 +1,8 @@
 import { Card, CardsContainer, Hero, HomeContainer } from "./styles";
-import logo from "../../assets/rocket-to-react-logo.svg";
-import iconProgrammer from "../../assets/icon-programmer.png";
-import iconEducation from "../../assets/icon-education.png";
-import iconProjects from "../../assets/icon-projects.png";
+import logo from "/assets/rocket-to-react-logo.svg";
+import iconProgrammer from "/assets/icon-programmer.png";
+import iconEducation from "/assets/icon-education.png";
+import iconProjects from "/assets/icon-projects.png";
 import { Link } from "react-router-dom";
 
 export function HomePage() {

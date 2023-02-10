@@ -1,7 +1,7 @@
 import { AboutMeContainer, Description, Hero, MyStory } from "./styles";
-import portoSaoBento from "../../assets/porto-sao-bento-clock.jpg";
-import aveiroUniversity from "../../assets/aveiro-university.jpg";
-import isep from "../../assets/isep.jpg";
+import portoSaoBento from "/assets/porto-sao-bento-clock.jpg";
+import aveiroUniversity from "/assets/aveiro-university.jpg";
+import isep from "/assets/isep.jpg";
 import { Divider } from "../../components/Divider";
 
 export function AboutMePage() {
