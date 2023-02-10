@@ -11,18 +11,24 @@ export function ProjectsPage() {
       <h2>Rocketseat</h2>
       <Divider type="small" width="partial" />
       <Projects>
-        <button>
+        <a
+          href="https://ignite-react-js-to-do-list.vercel.app/"
+          target="_blank"
+        >
           <img src={todo} alt="" />
-        </button>
-        <button>
+        </a>
+        <a
+          href="https://ignite-reactjs-coffee-delivery-gamma.vercel.app/"
+          target="_blank"
+        >
           <img src={coffeeDelivery} alt="" />
-        </button>
-        <button>
+        </a>
+        <a href="https://github-blog-two-phi.vercel.app/" target="_blank">
           <img src={githubBlog} alt="" />
-        </button>
-        <button>
+        </a>
+        <a href="https://ignite-shop-roan-one.vercel.app/" target="_blank">
           <img src={igniteShop} alt="" />
-        </button>
+        </a>
       </Projects>
     </ProjectPageContainer>
   );

@@ -27,7 +27,7 @@ export const Projects = styled.section`
   flex-wrap: wrap;
   gap: 10px;
 
-  button {
+  a {
     background: transparent;
     border: none;
   }
