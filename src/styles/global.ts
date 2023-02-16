@@ -33,4 +33,4 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-appearance: none;
     margin: 0;
   }
-`
+`;

@@ -11,18 +11,19 @@ export function AboutMePage() {
         <Hero>Hi</Hero>
         <article>
           <img src={portoSaoBento} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel
-            lectus et est tempus tempor id non ipsum. Cras ac eros dapibus,
-            blandit metus eget, tempor lectus. Maecenas tempus semper nulla in
-            convallis. Vestibulum commodo risus id leo sagittis molestie.
-            Curabitur mollis ligula ac faucibus gravida. Nullam ut suscipit
-            nunc. Nunc in urna sit amet lacus lacinia pellentesque. In eget.
-          </p>
+          <b>Diogo Menéres</b>
+          <ul>
+            <li>24 years old</li>
+            <li>front end web dev</li>
+            <li>
+              passionate about open source, investing, crypto, league and tech
+              as a whole
+            </li>
+          </ul>
         </article>
       </Description>
       {/* <Divider type="big" /> */}
-      <MyStory>
+      {/* <MyStory>
         <article>
           <div className="imagesContainer">
             <img src={aveiroUniversity} alt="" />
@@ -55,7 +56,7 @@ export function AboutMePage() {
             vulputate tellus dignissim sit amet.
           </p>
         </article>
-      </MyStory>
+      </MyStory> */}
     </AboutMeContainer>
   );
 }

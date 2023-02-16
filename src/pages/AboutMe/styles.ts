@@ -9,14 +9,24 @@ export const Description = styled.section`
   width: 100%;
   margin: 100px auto;
 
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   article {
+    b {
+      display: flex;
+
+      font-size: 1.5rem;
+      height: fit-content;
+
+      margin-left: -15px;
+      margin-bottom: 5px;
+    }
+
     max-width: 600px;
     margin: 0px 0px auto auto;
     height: fit-content;
 
-    text-align: center;
+    text-align: left;
 
     img {
       width: 600px;

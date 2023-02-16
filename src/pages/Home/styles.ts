@@ -2,24 +2,35 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.main`
   padding: 100px 190px;
+  display: block;
+  width: 80vw;
+
+  margin: 0px auto;
 `;
 
 export const Hero = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 1060px;
-  margin: auto;
+  max-width: 1060px;
+  width: 80vw;
+  margin: 3rem auto;
 `;
 
 export const CardsContainer = styled.div`
   display: flex;
-  width: 1060px;
+  /* flex-wrap: wrap; */
+  max-width: 1060px;
+  width: 80%;
   margin: 25px auto 0px;
-  justify-content: space-between;
+
+  justify-content: center;
+
+  gap: 1rem;
 `;
 
 export const Card = styled.div`
+  width: 1fr;
   width: 21.125rem;
   height: 16.06rem;
 
@@ -29,8 +40,9 @@ export const Card = styled.div`
   display: block;
 
   img {
+    display: flex;
     height: 62px;
-    margin: 25px 141px 20px;
+    margin: 25px auto 20px;
   }
 
   p {
